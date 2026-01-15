@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hand-Made Jewellery Store</title>
+
+  <!-- GLOBAL CSS -->
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+
+  <!-- PAGE CSS -->
+  <link rel="stylesheet" href="assets/css/auth.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <h1 class="logo">Hand-Made Jewellery</h1>
+</header>
+
+<main class="auth-wrapper">
+
+  <section class="auth-card reveal">
+    <h2>Create Account</h2>
+    <p class="auth-subtitle">Join our jewellery family</p>
+
+    <form id="signupForm">
+
+      <div class="field">
+        <input type="text" required>
+        <label>Username</label>
+      </div>
+
+      <div class="field">
+        <input type="email" required>
+        <label>Email</label>
+      </div>
+
+      <div class="strength-bar">
+        <input type="password" required>
+        <label>Password</label>
+        <span></span>
+      </div>
+
+      <button type="submit" class="neon-btn">Create Account</button>
+
+      <p class="auth-switch">
+        Already have an account?
+        <a href="login.html">Login</a>
+      </p>
+
+    </form>
+  </section>
+
+</main>
+
+<script src="assets/js/form.js"></script>
+<script src="assets/js/animations.js"></script>
+</body>
+</html>

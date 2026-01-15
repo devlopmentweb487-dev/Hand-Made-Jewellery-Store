@@ -1,0 +1,32 @@
+/* HERO SECTION */
+.hero {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+}
+
+.hero h2 {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  font-family: "Playfair Display", serif;
+}
+
+.hero p {
+  max-width: 520px;
+  color: var(--text-soft);
+  line-height: 1.6;
+}
+
+/* FEATURES */
+.features {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.features h3 {
+  margin-bottom: 8px;
+  color: var(--neon-gold);
+}

@@ -1,0 +1,33 @@
+/* NAVBAR */
+.navbar {
+  padding: 24px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  margin-right: 24px;
+  color: var(--text-soft);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: var(--neon-cyan);
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 24px;
+  color: var(--text-soft);
+  font-size: 0.85rem;
+}

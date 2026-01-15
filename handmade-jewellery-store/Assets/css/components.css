@@ -1,0 +1,32 @@
+/* GLASS CARD */
+.glass-card {
+  background: var(--bg-card);
+  backdrop-filter: var(--blur-glass);
+  border: 1px solid var(--border-glass);
+  border-radius: 18px;
+  padding: 26px;
+  transition: transform .4s var(--ease-smooth),
+              box-shadow .4s var(--ease-smooth);
+}
+
+.glass-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--shadow-neon);
+}
+
+/* NEON BUTTON */
+.neon-btn {
+  background: transparent;
+  border: 1px solid var(--neon-cyan);
+  color: var(--neon-cyan);
+  padding: 12px 26px;
+  border-radius: 999px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.neon-btn:hover {
+  background: var(--neon-cyan);
+  color: #000;
+}

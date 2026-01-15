@@ -1,0 +1,36 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ROOT DESIGN SYSTEM */
+:root {
+  /* COLORS */
+  --bg-main: #05060a;
+  --bg-card: rgba(255, 255, 255, 0.06);
+  --border-glass: rgba(255, 255, 255, 0.12);
+
+  --neon-cyan: #00fff0;
+  --neon-violet: #8b5cf6;
+  --neon-gold: #f5c97a;
+
+  --text-main: #f1f5f9;
+  --text-soft: #9ca3af;
+
+  /* EFFECTS */
+  --blur-glass: blur(16px);
+  --shadow-neon: 0 0 25px rgba(0, 255, 240, 0.35);
+
+  /* MOTION */
+  --ease-smooth: cubic-bezier(.4, 0, .2, 1);
+}
+
+/* BODY */
+body {
+  font-family: "Inter", system-ui, sans-serif;
+  background: radial-gradient(circle at top, #0b0f1f, #05060a);
+  color: var(--text-main);
+  min-height: 100vh;
+}
